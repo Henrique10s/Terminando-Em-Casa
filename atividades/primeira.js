@@ -8,9 +8,7 @@ var Livro = /** @class */ (function () {
         this.anoPublicacao = anoPublicacao;
     }
     Livro.prototype.obterDetalhes = function () {
-        console.log("O t\u00EDtulo do livro \u00E9: ".concat(this.titulo));
-        console.log("O autor do livro \u00E9 ".concat(this.autor));
-        console.log("O ano da publicacao do livro \u00E9: ".concat(this.anoPublicacao));
+        return "Titulo: ".concat(this.titulo, ", Autor: ").concat(this.autor, ", ano Publicacao: ").concat(this.anoPublicacao);
     };
     return Livro;
 }());

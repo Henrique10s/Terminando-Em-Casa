@@ -9,9 +9,9 @@ export class Livro{
         this.anoPublicacao = anoPublicacao
      }
      obterDetalhes(){
-        console.log(`O título do livro é: ${this.titulo}`);
-        console.log(`O autor do livro é ${this.autor}`);
-        console.log(`O ano da publicacao do livro é: ${this.anoPublicacao}`);  
+        return `Titulo: ${this.titulo}, Autor: ${this.autor}, ano Publicacao: ${this.anoPublicacao}`
+         
+        
      }
    }
    

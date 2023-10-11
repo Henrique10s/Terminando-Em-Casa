@@ -2,14 +2,14 @@
   "name": "atividades",
   "version": "1.0.0",
   "description": "",
-  "main": "primeira.js",
+  "main": "index2.js",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "npx tsc primeira.ts && node primeira"
+    "start": "npx tsc index.ts && node index"
   },
   "author": "",
   "license": "ISC"

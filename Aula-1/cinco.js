@@ -8,33 +8,22 @@ function main() {
     primeiroNumero = leitor.questionFloat("Insira o primeiro valor que deseja calcular: ");
     segundoNumero = leitor.questionFloat("Insira o segundo valor que deseja calcular: ");
     terceiroNumero = leitor.questionFloat("Insira o terceiro valor que deseja calcular: ");
-    console.log("Os resultados das suas somas sao: ", soma);
-    console.log("Os resultados das suas subtracoes sao: ", subtra);
-    console.log("Os resultados das suas divisoes sao: ", div);
-    console.log("Os resultados das suas multiplicacoes sao: ", multi);
+    console.log("OS VALORES DAS SOMAS SAO: ".concat(soma));
 }
 function soma(primeiroNumero, segundoNumero, terceiroNumero) {
-    var primeiraSoma = primeiroNumero + segundoNumero;
-    var segundaSoma = primeiroNumero + terceiroNumero;
-    var terceiraSoma = segundoNumero + terceiroNumero;
-    return "".concat(primeiraSoma, ", ").concat(segundaSoma, ", ").concat(terceiraSoma);
+    var somar = primeiroNumero + segundoNumero + terceiroNumero;
+    return somar;
 }
-function subtra(primeiroNumero, segundoNumero, terceiroNumero) {
-    var primeiraSub = primeiroNumero - segundoNumero;
-    var segundaSub = primeiroNumero - terceiroNumero;
-    var terceiraSub = segundoNumero - terceiroNumero;
-    return "".concat(primeiraSub, ", ").concat(segundaSub, ", ").concat(terceiraSub);
+function subTra(primeiroNumero, segundoNumero, terceiroNumero) {
+    var subtrair = primeiroNumero - segundoNumero - terceiroNumero;
+    return subtrair;
 }
-function div(primeiroNumero, segundoNumero, terceiroNumero) {
-    var primeiraDiv = primeiroNumero / segundoNumero;
-    var segundaDiv = primeiroNumero / terceiroNumero;
-    var terceiraDiv = segundoNumero / terceiroNumero;
-    return "".concat(primeiraDiv, ", ").concat(segundaDiv, ", ").concat(terceiraDiv);
+function divisao(primeiroNumero, segundoNumero, terceiroNumero) {
+    var div = primeiroNumero / segundoNumero / terceiroNumero;
+    return div;
 }
-function multi(primeiroNumero, segundoNumero, terceiroNumero) {
-    var primeiraMulti = primeiroNumero * segundoNumero;
-    var segundaMulti = primeiroNumero * terceiroNumero;
-    var terceiraMulti = segundoNumero * terceiroNumero;
-    return "".concat(primeiraMulti, ", ").concat(segundaMulti, ", ").concat(terceiraMulti);
+function multiplica(primeiroNumero, segundoNumero, terceiroNumero) {
+    var multi = primeiroNumero * segundoNumero * terceiroNumero;
+    return multi;
 }
 main();
